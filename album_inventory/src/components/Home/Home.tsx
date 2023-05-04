@@ -66,7 +66,7 @@ export const Home = ( props:Props) => {
         <Root>
             <NavbarContainer>
                 <Logo>
-                    <LogoA href="#">Brand</LogoA>
+                    <LogoA href="#">Pine SAP</LogoA>
                 </Logo>
                 <LogoNavigation>
                     <li>
@@ -84,7 +84,7 @@ export const Home = ( props:Props) => {
                 <MainText>
                     <h1>{props.title}</h1>
                     <p>for those who love music</p>
-                    <Button color='primary' variant='contained' component={Link} to='/dashboard'>See the Drones</Button>
+                    <Button color='primary' variant='contained' component={Link} to='/dashboard'>See Albums</Button>
                 </MainText>
             </Main>
 
