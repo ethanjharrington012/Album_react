@@ -73,17 +73,20 @@ export const Home = ( props:Props) => {
                         <NavA to='/'>Home</NavA>
                     </li>
                     <li>
-                        <NavA to='/dashboard'>About</NavA>
+                        <NavA to='/dashboard'>Dashboard</NavA>
                     </li>
                     <li>
-                        <NavA to='/signin'>Learn More</NavA>
+                        <NavA to='/signin'>Sign In</NavA>
+                    </li>
+                    <li>
+                        <NavA to='/signup'>Sign Up</NavA>
                     </li>
                 </LogoNavigation>
             </NavbarContainer>
             <Main>
                 <MainText>
                     <h1>{props.title}</h1>
-                    <p>for those who love music</p>
+                    <p>for those who love music...</p>
                     <Button color='primary' variant='contained' component={Link} to='/dashboard'>See Albums</Button>
                 </MainText>
             </Main>

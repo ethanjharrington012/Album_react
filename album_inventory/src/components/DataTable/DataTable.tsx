@@ -9,7 +9,8 @@ import { Button,
     DialogContent,
     DialogContentText, 
     DialogTitle } from '@mui/material'; // ADD THESE
-import { AlbumForm } from '../../components/AlbumForm'; // ADD THIS
+import { AlbumForm } from '../../components/AlbumForm';
+import { getAuth } from 'firebase/auth';
 
 const columns: GridColDef[] = [
 
